@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ededed;
+  }
+
+.navbar-brand {
+    color: white;
+    padding: 0.5%;
+    background-color: #4aaaa5;
+    font-weight: bolder;
+}  
+
+#x {
+    color: whitesmoke;
+}
+  
+  
