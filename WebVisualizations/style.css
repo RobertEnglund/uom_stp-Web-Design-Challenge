@@ -1,7 +1,12 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     background-color: #ededed;
   }
+
+h3 {
+    color: #4aaaa5;
+    font-weight: bolder;
+}
 
 .navbar-brand {
     color: white;
@@ -10,8 +15,14 @@ body {
     font-weight: bolder;
 }  
 
+.table {
+    font-size: 20px;
+    border-top-color: rgb(255, 255, 255);
+  }
+
+
 #x {
-    color: whitesmoke;
+    color: white;
 }
   
   
