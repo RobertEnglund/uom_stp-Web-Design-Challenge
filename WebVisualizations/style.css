@@ -25,6 +25,9 @@ h3 {
     border-top-color: rgb(255, 255, 255);
   }
 
+.chosenCell {
+    border: 1px solid red;
+  }
 
 #x {
     color: white;
