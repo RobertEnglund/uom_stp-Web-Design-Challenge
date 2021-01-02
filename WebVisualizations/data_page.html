@@ -9,43 +9,29 @@
 </head>
 
 <body>
- <!--The website must, at the top of every page, have a navigation menu that:-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html" id=x>MySite</a>
-    <!-- *** What does this do? *** -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand" href="index.html" id=x>Latitude</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="span navbar-nav mr-right">
-        <!-- Contains a dropdown menu on the right of the navbar named "Plots" that provides a link 
-          to each individual visualization page.-->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
           </div>
         </li>
-        <!--Provides two more text links on the right: "Comparisons", which links to the comparisons page, 
-        and "Data", which links to the data page-->
-        <li class="nav-item">
-          <a class="nav-link" href="Comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data_page.html">Data</a>
-        </li>
+        <li class="nav-item"> <a class="nav-link" href="Comparison.html">Comparison</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="data_page.html">Data</a> </li>
       </ul>
     </div>
   </nav>
   <br>
   <div class="container content bg-white">
     <br>
-<!--    <div class="box max-height"> -->
       <h3>Data</h3>
       <hr>
       <p>This following table inludes all the data used for plotting during this project.</p>
@@ -6634,7 +6620,7 @@
           </tbody>
         </table>
       </div>
-    <!--</div> -->
+    </div>
     <br>
   </div>
 
